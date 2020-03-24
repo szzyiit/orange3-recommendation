@@ -6,7 +6,7 @@ import pkg_resources
 from setuptools import setup, find_packages
 from setuptools.command.install import install
 
-NAME = 'Orange3-Recommendation'
+NAME = 'Orange3-Recommendation-zh'
 
 VERSION = '0.1.3'
 
@@ -36,7 +36,7 @@ ENTRY_POINTS = {
         # Syntax: category name = path.to.package.containing.widgets
         # Widget category specification can be seen in
         #    orangecontrib/example/widgets/__init__.py
-        'Recommendation = orangecontrib.recommendation.widgets',
+        '推荐系统(Recommendation) = orangecontrib.recommendation.widgets',
     ),
 
     # Register widget help
